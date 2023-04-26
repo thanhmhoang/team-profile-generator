@@ -51,7 +51,7 @@ node index.js
 ```
 Users/Managers will be prompted a series of questions that are related to their role. Once they've answer all the questions, users will be prompted if they would like other members to their team such as an engineer or an intern. Once they have added everyone on their team, they will click the "Finished add team" option which will generate the HTML file for them on the root level.
 
-<img src="./assets/Screenshot 2023-04-25 at 8.30.52 PM">
+<img src="./assets/Screenshot 2023-04-25 at 8.30.52 PM.png">
 
 ## Credits
 
