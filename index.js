@@ -30,7 +30,7 @@ function managerPrompt() {
             message: "What is your office number?",
         }]
 ) .then(function(res){
-    const newManager = new Manager(res.name, res.email, res.id, res.officeNumber)
+    const newManager = new Manager(res.name, res.id, res.email, res.officeNumber)
     team.push(newManager)
     menu()
 })
@@ -80,7 +80,7 @@ function addEngineer() {
             message: "What is your GitHub username?",
         }]
 ) .then(function(res){
-    const newEngineer = new Engineer(res.name, res.email, res.id, res.github)
+    const newEngineer = new Engineer(res.name, res.id, res.email, res.github)
     team.push(newEngineer)
     menu()
 })
@@ -109,7 +109,7 @@ function addIntern() {
             message: "What school are you attending?",
         }]
 ) .then(function(res){
-    const newIntern = new Intern (res.name, res.email, res.id, res.school)
+    const newIntern = new Intern (res.name, res.id, res.email, res.school)
     team.push(newIntern)
     menu()
 })
